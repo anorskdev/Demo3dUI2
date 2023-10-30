@@ -14,6 +14,8 @@
 		9F9931F82AEF2F2700FF934D /* Demo3dUI2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9931F72AEF2F2700FF934D /* Demo3dUI2Tests.swift */; };
 		9F9932022AEF2F2700FF934D /* Demo3dUI2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9932012AEF2F2700FF934D /* Demo3dUI2UITests.swift */; };
 		9F9932042AEF2F2700FF934D /* Demo3dUI2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9932032AEF2F2700FF934D /* Demo3dUI2UITestsLaunchTests.swift */; };
+		9F9932112AEF2F5400FF934D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9932102AEF2F5400FF934D /* art.scnassets */; };
+		9F9932132AEF4AAD00FF934D /* art2.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9932122AEF4AAD00FF934D /* art2.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9F9931FD2AEF2F2700FF934D /* Demo3dUI2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo3dUI2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9932012AEF2F2700FF934D /* Demo3dUI2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3dUI2UITests.swift; sourceTree = "<group>"; };
 		9F9932032AEF2F2700FF934D /* Demo3dUI2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3dUI2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F9932102AEF2F5400FF934D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		9F9932122AEF4AAD00FF934D /* art2.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art2.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				9F9931E62AEF2F2400FF934D /* Demo3dUI2App.swift */,
 				9F9931E82AEF2F2400FF934D /* ContentView.swift */,
+				9F9932122AEF4AAD00FF934D /* art2.scnassets */,
+				9F9932102AEF2F5400FF934D /* art.scnassets */,
 				9F9931EA2AEF2F2600FF934D /* Assets.xcassets */,
 				9F9931EC2AEF2F2600FF934D /* Preview Content */,
 			);
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9932132AEF4AAD00FF934D /* art2.scnassets in Resources */,
 				9F9931EE2AEF2F2600FF934D /* Preview Assets.xcassets in Resources */,
+				9F9932112AEF2F5400FF934D /* art.scnassets in Resources */,
 				9F9931EB2AEF2F2600FF934D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
